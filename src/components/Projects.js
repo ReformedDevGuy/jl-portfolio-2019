@@ -4,11 +4,43 @@ import theEleganeLensPreview from '../previews/the-elegant-lens/preview.png';
 import renaissancePreview from '../previews/renaissance/preview.png';
 import fyloPreview from '../previews/fylo/preview.png';
 import bookmarkPreview from '../previews/bookmark/preview.png';
-import clipboardPreview from '../previews/clipboard/preview.png';
-import huddlePreview from '../previews/huddle/preview.png';
 import balloonPreview from '../previews/balloon/preview.png';
+import jlmdbPreview from '../previews/jlmdb/preview.png';
+import recipesPreview from '../previews/recipes/preview.png';
 
 const projects = [
+  {
+    title: 'JLMDb',
+    link: 'https://jlmdb.jjlarson.com/',
+    repo: 'https://github.com/ReformedDevGuy/JLMDb-master',
+    desc:
+      'An IMDb-like movie search app that allows you to search movies by title and view details. Fetches data using the OMDb API.',
+    features: [
+      'React',
+      'Node',
+      'Bootstrap',
+      '3rd-party API Integration',
+      'Clean UI',
+      'Responsive Layout'
+    ],
+    preview: jlmdbPreview
+  },
+  {
+    title: 'Recipe Search',
+    link: 'https://recipes.jjlarson.com/',
+    repo: 'https://github.com/ReformedDevGuy/recipe-search-master',
+    desc:
+      'A web app that lets users search for recipes using ingredient and dish names. Fetches data using the Edamam API.',
+    features: [
+      'React',
+      'Redux',
+      'Animations',
+      '3rd-party API Integration',
+      'Clean UI',
+      'Responsive Layout'
+    ],
+    preview: recipesPreview
+  },
   {
     title: 'The Elegant Lens',
     link: 'https://www.theelegantlens.com/',
@@ -67,36 +99,6 @@ const projects = [
       'Responsive Layout'
     ],
     preview: bookmarkPreview
-  },
-  {
-    title: 'Clipboard Landing Page',
-    link: 'https://clipboard.jjlarson.com/',
-    repo: 'https://github.com/ReformedDevGuy/clipboard-master',
-    desc:
-      'A responsive landing page for productivity software that manages users clipboards',
-    features: [
-      'HTML',
-      'SCSS',
-      'JavaScript',
-      'Clean UI',
-      'Responsive Layout'
-    ],
-    preview: clipboardPreview
-  },
-  {
-    title: 'Huddle Landing Page',
-    link: 'https://huddle.jjlarson.com/',
-    repo: 'https://github.com/ReformedDevGuy/huddle-master',
-    desc:
-      'A responsive landing page for an application that helps workers collaborate and manage projects.',
-    features: [
-      'HTML',
-      'SCSS',
-      'JavaScript',
-      'Clean UI',
-      'Responsive Layout'
-    ],
-    preview: huddlePreview
   },
   {
     title: 'Balloon Pop Game',
