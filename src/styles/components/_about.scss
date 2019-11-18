@@ -1,0 +1,61 @@
+.about {
+  background: $blue-med;
+  color: white;
+  padding: 13rem 3rem 18rem;
+  text-align: center;
+  margin-bottom: -9rem;
+  text-shadow: 0 0 10px rgba($black, 0.5);
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin: 0 auto;
+    max-width: 90%;
+    // min-width: 80%;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .about {
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2.5rem;
+      line-height: 4rem;
+      width: 60%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    // padding-top: 15rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    p {
+      // text-align: left;
+      width: 95%;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about {
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 0 auto 3rem;
+
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
