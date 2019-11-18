@@ -108,7 +108,7 @@ const projects = [
       'A web app that displays a simple game, where the objective is to pop 100 balloons before any reach the top of the screen. Warning: there is sound!',
     features: [
       'HTML',
-      'SCSS',
+      'CSS',
       'JavaScript'
     ],
     preview: balloonPreview
