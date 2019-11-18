@@ -5,7 +5,7 @@ const About = props => {
     <div className="about">
       <h2>John Larson, Web Developer</h2>
       <p>
-        My passion for Web Development started in 2009 and since then I have 
+        My passion for Web Development started in 2009, and since then I have 
         utilized both college courses and self-taught methods in order 
         to create beautiful and efficent web solutions for small 
         businesses and individuals in need of an online presence. The main technologies 
