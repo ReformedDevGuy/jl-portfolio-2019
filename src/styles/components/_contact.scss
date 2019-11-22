@@ -25,28 +25,59 @@
   .icons svg.svg-inline--fa:hover {
     font-size: 8rem;
     margin: 0 2rem 0;
-    color: $blue-med;
+    &:hover {
+      filter: brightness(110%);
+      text-shadow: 0 0 3rem rgba($blue-primary, 0.5);
+    }
   }
 }
 
 
 
 .contact-me-button {
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
-  border-radius: 5rem;
-  padding: 1rem 1.5rem;
-  background: $blue-primary;
-  color: $white;
-  font-size: 2rem;
+  position: static;
+  color: $blue-primary;
+  font-size: 8rem;
+  padding-bottom: 1rem;
   cursor: pointer;
   transition: all 0.3s;
   text-decoration: none;
   &:hover {
-    filter: brightness(110%);
-    box-shadow: 0 0 3rem rgba($blue-primary, 0.5);
+    filter: brightness(120%);
+    font-size: 10rem;
   }
+}
+.contact-me-button-alt {
+  position: static;
+  color: $blue-primary;
+  font-size: 7.1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  &:hover {
+    filter: brightness(120%);
+    font-size: 10rem;
+  }
+}
+.contact-me-button-alt-2 {
+  position: static;
+  color: $blue-primary;
+  font-size: 9.5rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  &:hover {
+    filter: brightness(120%);
+    font-size: 12rem;
+  }
+}
+.icon-floats {
+  position: fixed;
+  top: 3rem;
+  left: 3rem;
 }
 
 

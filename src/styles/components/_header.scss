@@ -60,6 +60,10 @@
       font-size: 6rem;
       margin: 0 2rem 0;
       color: $blue-primary;
+      &:hover {
+        filter: brightness(110%);
+        text-shadow: 0 0 6rem rgba($blue-primary, 0.5);
+      }
     }
 
     h3 {
