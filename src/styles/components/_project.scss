@@ -46,7 +46,7 @@
       margin-bottom: 1rem;
       font-size: 1.4rem;
       a {
-        background: $blue-primary;
+        background: $purple-med;
         padding: 1rem 2rem;
         margin: 1rem;
         border-radius: 5px;
@@ -55,7 +55,7 @@
         text-decoration: none;
         transition: all 0.3s;
         &:hover {
-          background: $blue-med;
+          background: $blue-primary;
         }
       }
     }
