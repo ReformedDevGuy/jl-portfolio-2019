@@ -14,8 +14,8 @@ const About = props => {
         </p>
       <br />
       <p>
-        Despite focusing on front-end technologies, I have extensive experience working
-        with back-end frameworks and databases, including NodeJS, Express, PHP, and Python.
+        Despite focusing on front-end technologies, I have extensive  experience with back-end 
+        languages/runtimes, frameworks, and databases, including NodeJS, Express, PHP, and Python.
         I have experience with SQL databases, like MySQL, Microsoft SQL Server, Percona and
         MariaDB, and I also frequently utilize NoSQL databases like MongoDB and CouchDB. My
         experience in Network Administration also means I am able to utilize server technologies

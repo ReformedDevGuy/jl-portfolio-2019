@@ -15,7 +15,7 @@ const TechStack = props => {
       <div className="tech-stack--wrapper">
         <div className="tech-stack__frontend">
           <Fade>
-            <h2>Frontend Technology</h2>
+            <h2>Front-End Tech</h2>
           </Fade>
           <div className="frontend-tools">
             <Fade delay={100}>
@@ -34,7 +34,7 @@ const TechStack = props => {
         </div>
         <div className="tech-stack__backend">
           <Fade>
-            <h2>Backend Technology</h2>
+            <h2>Back-End Tech</h2>
           </Fade>
           <div className="backend-tools">
             <Fade delay={100}>
@@ -45,7 +45,7 @@ const TechStack = props => {
             </Fade>
             <Fade delay={300}>
               <img src={mongoIcon} alt="" />
-            </Fade>          
+            </Fade>
           </div>
         </div>
       </div>

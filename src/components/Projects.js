@@ -19,9 +19,7 @@ const projects = [
       'React',
       'Node',
       'Bootstrap',
-      '3rd-party API Integration',
-      'Clean UI',
-      'Responsive Layout'
+      '3rd-party API Integration'
     ],
     preview: jlmdbPreview
   },
@@ -35,9 +33,7 @@ const projects = [
       'React',
       'Redux',
       'Animations',
-      '3rd-party API Integration',
-      'Clean UI',
-      'Responsive Layout'
+      '3rd-party API Integration'
     ],
     preview: recipesPreview
   },
@@ -50,9 +46,8 @@ const projects = [
     features: [
       'HTML',
       'CSS',
-      'Bootstrap',
-      'Clean UI',
-      'Responsive Layout'
+      'Javascript',
+      'Bootstrap'
     ],
     preview: theEleganeLensPreview
   },
@@ -66,8 +61,7 @@ const projects = [
       'HTML',
       'SCSS',
       'JavaScript',
-      'Clean UI',
-      'Responsive Layout'
+      'Multi-Page Responsive Layout'
     ],
     preview: renaissancePreview
   },
@@ -80,8 +74,7 @@ const projects = [
     features: [
       'HTML',
       'CSS',
-      'Clean UI',
-      'Responsive Layout'
+      'Font Awesome Icon Integration'
     ],
     preview: fyloPreview
   },
@@ -94,9 +87,7 @@ const projects = [
     features: [
       'HTML',
       'SCSS',
-      'JavaScript',
-      'Clean UI',
-      'Responsive Layout'
+      'JavaScript'
     ],
     preview: bookmarkPreview
   },
