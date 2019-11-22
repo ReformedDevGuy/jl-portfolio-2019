@@ -2,7 +2,7 @@
   background: $blue-med;
   color: white;
   padding: 13rem 3rem 18rem;
-  text-align: center;
+  text-align: left;
   margin-bottom: -9rem;
   text-shadow: 0 0 10px rgba($black, 0.5);
 
@@ -17,10 +17,10 @@
 
   p {
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 60%;
     // min-width: 80%;
     line-height: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
   }
 }
