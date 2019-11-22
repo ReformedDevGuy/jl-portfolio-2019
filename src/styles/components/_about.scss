@@ -9,17 +9,22 @@
   h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    max-width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 75%;
     // min-width: 80%;
     line-height: 3rem;
     font-size: 2rem;
     font-weight: 300;
   }
 }
+
 
 @media screen and (min-width: 1400px) {
   .about {
@@ -46,12 +51,57 @@
   }
 }
 
+@media screen and (max-width: 472px) {
+  .about {
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 0 auto 3rem;
+      max-width: 45%;
+
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+@media screen and (max-width: 455px) {
+  .about {
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 0 auto 3rem;
+      max-width: 48%;
+
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+
 @media screen and (max-width: 420px) {
   .about {
     h2 {
       font-size: 2.5rem;
       text-align: center;
       margin: 0 auto 3rem;
+      max-width: 50%;
+
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about {
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 0 auto 3rem;
+      max-width: 55%;
 
     }
     p {
