@@ -55,7 +55,8 @@
         text-decoration: none;
         transition: all 0.3s;
         &:hover {
-          background: $blue-med;
+          filter: brightness(120%);
+          box-shadow: 0 0 3rem rgba($blue-primary, 0.5);
         }
       }
     }
