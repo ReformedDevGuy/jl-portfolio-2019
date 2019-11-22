@@ -11,7 +11,7 @@
     }
   }
   .icons {
-    color: $blue-primary;
+    color: $orange-accent;
     padding-top: 3rem;
     margin: auto;
   }
@@ -19,7 +19,7 @@
   .icons svg.svg-inline--fa {
     font-size: 8rem;
     margin: 0 2rem 0;
-    color: $blue-primary;
+    color: $orange-accent;
   }
   
   .icons svg.svg-inline--fa:hover {
@@ -27,7 +27,7 @@
     margin: 0 2rem 0;
     &:hover {
       filter: brightness(110%);
-      text-shadow: 0 0 3rem rgba($blue-primary, 0.5);
+      text-shadow: 0 0 3rem rgba($orange-accent, 0.5);
     }
   }
 }
@@ -36,7 +36,7 @@
 
 .contact-me-button {
   position: static;
-  color: $blue-primary;
+  color: $orange-accent;
   font-size: 8rem;
   padding-bottom: 1rem;
   cursor: pointer;
@@ -49,7 +49,7 @@
 }
 .contact-me-button-alt {
   position: static;
-  color: $blue-primary;
+  color: $orange-accent;
   font-size: 7.1rem;
   padding-bottom: 1rem;
   cursor: pointer;
@@ -62,7 +62,7 @@
 }
 .contact-me-button-alt-2 {
   position: static;
-  color: $blue-primary;
+  color: $orange-accent;
   font-size: 9.5rem;
   padding-top: .5rem;
   padding-bottom: 1rem;
