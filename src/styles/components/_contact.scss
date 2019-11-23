@@ -32,8 +32,6 @@
   }
 }
 
-
-
 .contact-me-button {
   position: static;
   color: $orange-accent;
@@ -44,43 +42,14 @@
   text-decoration: none;
   &:hover {
     filter: brightness(120%);
-    font-size: 10rem;
   }
 }
-.contact-me-button-alt {
-  position: static;
-  color: $orange-accent;
-  font-size: 7.1rem;
-  padding-bottom: 1rem;
-  cursor: pointer;
-  transition: all 0.3s;
-  text-decoration: none;
-  &:hover {
-    filter: brightness(120%);
-    font-size: 10rem;
-  }
-}
-.contact-me-button-alt-2 {
-  position: static;
-  color: $orange-accent;
-  font-size: 9.5rem;
-  padding-top: .5rem;
-  padding-bottom: 1rem;
-  cursor: pointer;
-  transition: all 0.3s;
-  text-decoration: none;
-  &:hover {
-    filter: brightness(120%);
-    font-size: 12rem;
-  }
-}
+
 .icon-floats {
   position: fixed;
   top: 1rem;
   left: 1rem;
 }
-
-
 
 @media screen and (min-width: 1400px) {
   .icon-floats {
@@ -94,6 +63,12 @@
       a {
         font-size: 4rem;
       }
+    }
+  }
+  .contact-me-button {
+    &:hover {
+      filter: brightness(120%);
+      font-size: 10rem;
     }
   }
 }
@@ -138,8 +113,6 @@
   }
 }
 
-
-
 @media screen and (max-width: 415px) {
   .contact-me-button {
     font-size: 5rem;
@@ -151,7 +124,6 @@
     top: 1rem;
     left: .5rem;
   }
-
   .contact {
     h2 {
       font-size: 1.4rem;
