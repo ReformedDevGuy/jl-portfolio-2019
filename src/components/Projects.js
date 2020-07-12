@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: 'The Elegant Lens',
-    link: 'https://www.theelegantlens.com/',
+    link: 'https://www.theelegantlens.jjlarson.com/',
     repo: 'https://github.com/ReformedDevGuy/the-elegant-lens',
     desc:
       'A responsive website for a wedding photography business that displays information in a clean and organized manner. Utilizes HTML, CSS and Bootstrap.',
